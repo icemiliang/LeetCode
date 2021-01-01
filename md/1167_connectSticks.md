@@ -1,4 +1,4 @@
-### 1167\\. [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
+### 1167\. [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
 
 You have some sticks with positive integer lengths.
 
