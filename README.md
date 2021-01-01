@@ -3,7 +3,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
 [Questions in groups](group.md)
 
 1\. [Two Sum](https://leetcode.com/problems/two-sum/)
- [[Solution](md/1_twoSum.md)]
+ [[Solution](md/1_twoSum.md)]  
 2\. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
  [[Solution](md/2_addTwoNumbers.md)]  
 3\. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
