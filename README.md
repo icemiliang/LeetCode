@@ -3,7 +3,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
 [Questions in groups](group.md)
 
 1\. [Two Sum](https://leetcode.com/problems/two-sum/)
- [[Solution](md/1_twoSum.md)]  
+ [[Solution](md/1_twoSum.md)]
 2\. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
  [[Solution](md/2_addTwoNumbers.md)]  
 3\. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -356,7 +356,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
  [[Solution](md/283_moveZeroes.md)]  
 284\. [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)
  [[Solution](md/284_PeekingIterator.md)]  
-287\. Find the Duplicate Number
+287\. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
  [[Solution](md/287_findDuplicate.md)]  
 290\. [Word Pattern](https://leetcode.com/problems/word-pattern/)
  [[Solution](md/290_wordPattern.md)]  
@@ -540,7 +540,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
  [[Solution](md/576_findPaths.md)]  
 599\. [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)
  [[Solution](md/599_findRestaurant.md)]  
-609\. [Find Duplicate File in System]
+609\. [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)
  [[Solution](md/609_findDuplicate.md)]  
 617\. [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
  [[Solution](md/617_mergeTrees.md)]  
@@ -558,7 +558,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
  [[Solution](md/653_findTarget.md)]  
 658\. [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
  [[Solution](md/658_findClosestElements.md)]  
-680\. [Valid Palindrome II]
+680\. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
  [[Solution](md/680_validPalindrome.md)]  
 684\. [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
  [[Solution](md/684_findRedundantConnection.md)]  
@@ -720,7 +720,7 @@ This is my own collection of Leetcode solutions. Some of them are inspired by [G
  [[Solution](md/1143_longestCommonSubsequence.md)]  
 1154\. [Day of the Year](https://leetcode.com/problems/day-of-the-year/)
  [[Solution](md/1154_dayOfYear.md)]  
-1167\\. [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
+1167\. [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
  [[Solution](md/1167_connectSticks.md)]  
 1170\. [Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/)
  [[Solution](md/1170_numSmallerByFrequency.md)]  

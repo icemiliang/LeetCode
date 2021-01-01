@@ -1,3 +1,6 @@
+[[c++](../cpp/1_twoSum.cpp)] [[python](../python/1_twoSum.py)]
+
+
 ### 1\. [Two Sum](https://leetcode.com/problems/two-sum/)
 
 
@@ -16,7 +19,9 @@ return [0, 1].
 
 #### Solution 1
 
-Hashmap, Two loops
+Hashmap, Two loops 
+
+***Time: O(N) Space: O(N)***
 
 One solution to this problem is to loop the array from the begining to the end and record each number
 as we see it. Then, for each new number, we check if we can find a seen number that is the difference
@@ -61,7 +66,7 @@ class Solution:
             dict[nums[i]] = i
         for i in range(len(nums)):
             diff = target - nums[i]
-            if dict.get(diff) is not None and dict.get(diff) != i:
+            if diff in dict and dict.get(diff) != i:
                 return [dict.get(diff), i]
         return []
 ```
@@ -69,6 +74,8 @@ class Solution:
 #### Solution 2
 
 Hashmap, one loop
+
+***Time: O(N) Space: O(N)***
 
 We can also loop the array only once to find the combination. We still need a hashmap, but each time 
 before we add a number and its index to the hashmap, we check if we can find the difference in the 
@@ -104,8 +111,8 @@ class Solution:
         dict = {}
         for i in range(len(nums)):
             diff = target - nums[i]
-            if dict.get(diff) is not None:
-                return {dict.get(diff), i}
+            if diff in dict:
+                return [dict.get(diff), i]
             dict[nums[i]] = i
         return []
 ```
@@ -113,6 +120,8 @@ class Solution:
 #### Solution 3 
 
 Brute force
+
+***Time: O(N<sup>2</sup>) Space: O(1)***
 
 Of course, we can brute-forcely compute the summation of each two elements and then return 
 the their indices if the summation equals the target. This will increase the running time 
@@ -142,9 +151,9 @@ Python
 ```
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums)-1):
-            for j in range(i + 1, len(nums)):
-                if nums[j] + nums[i] == target:
+        for i, numI in enumerate(nums):
+            for j, numJ in enumerate(nums):
+                if numI + numJ == target:
                     return [i, j]
         return []
 ```
