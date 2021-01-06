@@ -3,3 +3,4 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(1_twoSum 1_twoSum.cpp utils.h)
+add_executable(100_sameTree 100_sameTree.cpp)
